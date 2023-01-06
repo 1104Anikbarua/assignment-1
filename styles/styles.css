@@ -9,6 +9,7 @@
     background-image: url("../images/banner/banner1.png");
     height: 808px;
     width: 100%;
+    background-repeat: no-repeat;
 }
 
 .heading {
@@ -50,11 +51,56 @@
 
 /* middle banner style starts here */
 .middle-banner {
-    margin-top: 130px;
+    margin: 130px 0 130px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .middle-banner img {
     width: 570px;
     height: 723px;
     margin-left: 206px;
+    margin-right: 88px;
+}
+
+.middle-banner h1 {
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    color: #151414;
+    margin-bottom: 24px;
+
+}
+
+.middle-banner p {
+    font-weight: 400;
+    height: 104px;
+    font-size: 16px;
+}
+
+.fa-solid {
+    color: #16D887;
+    margin-bottom: 8px;
+}
+
+/* middle banner style ends here  */
+.plans-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    margin-bottom: 56px;
+}
+
+.plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon img {
+    width: 92px;
+    height: 92px;
 }
